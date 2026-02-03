@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-delegated",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dfns/sdk": "^0.8.9",
+    "@dfns/sdk-browser": "^0.8.9",
+    "@dfns/sdk-keysigner": "^0.8.9",
+    "autoprefixer": "10.4.14",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "16.3.1",
+    "next": "14.2.32",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "8.0.7",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "encoding": "^0.1.13",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "typescript": "5.0.4"
+  }
+}
